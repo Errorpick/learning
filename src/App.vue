@@ -9,9 +9,9 @@ import Streaming from "@/components/common/Streaming.vue"; //ue场景
 import UEapi from "@/utils/UEapi/UEapi";
 import CameraList from "@/utils/configs/cameraList";
 import Camera from "@/utils/UEapi/Camera";
-import AllLayerConfig from "@/utils/configs/AllLayerConfig";
+// import AllLayerConfig from "@/utils/configs/AllLayerConfig";
 
-import Scene from "@/utils/common/Scene";
+// import Scene from "@/utils/common/Scene";y
 //系统根据本地分辨率按比例缩放
 const scale = ref(1);
 function setScreen() {
@@ -129,7 +129,7 @@ const highLight = computed(() => {
   return $store.state.highLight;
 });
 watch(highLight, (newV) => {
-  window.layerContral = AllLayerConfig[$route.currentRoute.value.name];
+  // window.layerContral = AllLayerConfig[$route.currentRoute.value.name];
   if ($store.state.appinstance) {
     appStart(newV);
   }

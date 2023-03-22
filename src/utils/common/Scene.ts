@@ -15,7 +15,7 @@ interface objKey {
 }
 import store from "@/store";
 import route from "@/router";
-import AllLayerConfig from "@/utils/configs/AllLayerConfig.js";
+// import AllLayerConfig from "@/utils/configs/AllLayerConfig.js";
 import CameraList from "../configs/cameraList";
 import Camera from "../UEapi/Camera";
 export default class Scene {
