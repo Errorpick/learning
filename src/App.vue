@@ -258,7 +258,7 @@ watch(sceneWeather, (newV) => {
     z-index: 10;
     background-position: top center;
     background-repeat: no-repeat;
-    background-image: url(./assets/img/layout/header_bg.png);
+    // background-image: url(./assets/img/layout/header_bg.png);
     .header_text {
       width: 230px;
       font-family: "汉仪菱心体简";
